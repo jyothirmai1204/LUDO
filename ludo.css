@@ -1,0 +1,316 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.board{
+    background-color:white;
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 1px solid black;
+}
+.b1,.b2,.b3,.b4{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+}
+.b1{
+    background-color: white;
+    border: 45px solid yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.b2{
+    background-color: white;
+    border: 45px solid green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.b3{
+    background-color: white;
+    border: 45px solid blue;
+    position: absolute;
+    bottom: 0px;
+}
+.b4{
+    background-color: white;
+    border: 45px solid red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.ch1{
+    background-color: white;
+    width:160px;
+    height:698px;
+    position: absolute;
+    right:270px;
+    border: 1px solid black;
+    
+}
+.ch2{
+    background-color: white;
+   width: 698px;
+   height: 160px;
+   position: absolute;
+   bottom: 270px;
+   border: 1px solid black;
+}
+.center{
+    background-color: brown;
+    width: 161px;
+    height: 161px;
+    position: relative;
+    left:269px;
+}
+.c1,.c2,.c3,.c4{
+    width: 40px;
+    height:40px;
+    background-color: yellow;
+    border-radius: 40px;
+}
+.dot1{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.c1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.c3{
+    position: absolute;
+    bottom: 0px;
+}
+.c4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.d1,.d2,.d3,.d4{
+    width: 40px;
+    height:40px;
+    background-color:green;
+    border-radius: 40px;
+}
+.dot2{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.d1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.d2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.d3{
+    position: absolute;
+    bottom: 0px;
+}
+.d4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.e1,.e2,.e3,.e4{
+    width: 40px;
+    height:40px;
+    background-color:blue;
+    border-radius: 40px;
+}
+.dot3{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.e1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.e2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.e3{
+    position: absolute;
+    bottom: 0px;
+}
+.e4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.f1,.f2,.f3,.f4{
+    width: 40px;
+    height:40px;
+    background-color:red;
+    border-radius: 40px;
+}
+.dot4{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.f1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.f2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.f3{
+    position: absolute;
+    bottom: 0px;
+}
+.f4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.a1{
+   width: 0;
+   height: 0;
+   border-top: 80px solid green;
+   border-left: 80px solid transparent;
+}
+.p1{
+   width: 0;
+   height: 0;
+   border-top: 80px solid green;
+   border-right: 80px solid transparent;
+   position: absolute;
+   top: 0px;
+}
+.a2{
+    width: 0;
+    height: 0;
+    border-left: 80px solid yellow;
+    border-bottom: 80px solid transparent;
+ }
+ .p2{
+    width: 0;
+    height: 0;
+    border-left: 80px solid yellow;
+    border-top: 80px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+ }
+ .a3{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid blue;
+    border-left: 80px solid transparent;
+    position: absolute;
+    bottom: 0px;
+ }
+ .p3{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid blue;
+    border-right: 80px solid transparent;
+ }
+ .a4{
+    width: 0;
+    height: 0;
+    border-right: 80px solid red;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+ }
+ .p4{
+    width: 0;
+    height: 0;
+    border-right: 80px solid red;
+    border-top: 80px solid transparent;
+    position: absolute;
+    bottom: 0px;
+ }
+
+.white1{
+    width: 269px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    top:269px
+}
+.white2{
+    width: 269px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    top: 269px;
+    left: 430px;
+}
+.white3{
+   width: 160px;
+   height: 269px;
+   background-color: white;
+   position: absolute;
+   left: 269px;
+}
+.white4{
+    width: 160px;
+   height: 269px;
+   background-color: white;
+   position: absolute;
+   left: 269px;
+   top: 430px;
+}
+.cell{
+    width: 53px;
+    height: 53px;
+    border: 1px solid black;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+}
+.rup{
+    width: 53px;
+    height: 53px;
+    border: 1px solid black;
+}
